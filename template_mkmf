@@ -1,0 +1,11 @@
+# Template for Linux machine using intel compiler
+# Creation date       : 15/03/2021
+# Last modification   : 31/03/2021
+
+FC = ifort
+LD = ifort
+
+# ------------------------------------------------------------------------------
+OPT= -i8
+LIBFFTW = -lfftw3
+FLAGS =  $(OPT)
